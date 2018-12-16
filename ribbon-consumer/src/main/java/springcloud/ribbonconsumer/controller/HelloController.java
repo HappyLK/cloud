@@ -32,6 +32,7 @@ public class HelloController {
      */
     @GetMapping("/hello2")
     public String hello2() {
+        System.out.println("aaaa");
         return helloService.hello();
     }
 
