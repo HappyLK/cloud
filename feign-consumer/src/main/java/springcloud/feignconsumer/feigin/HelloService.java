@@ -11,7 +11,7 @@ import springcloud.feignconsumer.entity.People;
  * @FeignClient  注解写在接口上  value是服务的名称不区分大小写
  * 通过注解中配置的服务名回去相应的服务中找到对应的接口进行请求
  */
-@FeignClient("hello-service")
+//@FeignClient("hello-service")
 public interface HelloService {
 
     @RequestMapping("/hello")

@@ -13,19 +13,19 @@ import javax.annotation.Resource;
  */
 @RestController
 public class HelloController {
-    @Resource
-    private HelloService helloService;
-
-    @GetMapping("/hello")
-    public String hello() {
-        return helloService.hello();
-    }
-    @GetMapping("/hello1")
-    public String hello1() {
-        return helloService.hello1("name");
-    }
-    @GetMapping("/hello2")
-    public String hello2() {
-        return helloService.hello2(new People());
-    }
+//    @Resource
+//    private HelloService helloService;
+//
+//    @GetMapping("/hello")
+//    public String hello() {
+//        return helloService.hello();
+//    }
+//    @GetMapping("/hello1")
+//    public String hello1() {
+//        return helloService.hello1("name");
+//    }
+//    @GetMapping("/hello2")
+//    public String hello2() {
+//        return helloService.hello2(new People());
+//    }
 }
